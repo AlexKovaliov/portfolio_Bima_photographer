@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.title h1 {
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.extra {
+    color: #ffb400;
+}
+
+.back {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+}
